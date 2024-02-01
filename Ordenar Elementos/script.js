@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Seleciona o botão de ordenação
     const selectionSort = document.getElementById('selection_sort_btn');
     // Adiciona um evento de clique ao botão de ordenação
+    
     selectionSort.addEventListener('click', (e) => {
         e.preventDefault();
         var items = elementsList.querySelectorAll('.item');
